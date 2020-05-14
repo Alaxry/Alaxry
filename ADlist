@@ -1,6 +1,3 @@
-# Update-2020.4.28 Self-use rule, Remove versus shenji duplicates and optimizations
-# This rule does not include shenji
-
 # Advertising 广告
 # > General
 DOMAIN-KEYWORD,adservice,REJECT
@@ -357,7 +354,9 @@ DOMAIN,iyes.youku.com,REJECT
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
 
-# other
+
+# Update-2020.4.28 Self-use rule, Remove versus shenji duplicates and optimizations
+# This rule does not include shenji
 DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT
 DOMAIN-SUFFIX,comet.yahoo.com,REJECT
 DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
