@@ -158,7 +158,8 @@ DOMAIN,als.baidu.com,REJECT
 DOMAIN,duclick.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
-DOMAIN,nsclick.baidu.com,REJECT
+DOMAIN,nsclick.baidu.com,REJEC
+DOMAIN,cm.bilibili.com,REJECT
 # > ByteDance
 DOMAIN,ad.toutiao.com,REJECT
 # > BitAuto
@@ -216,7 +217,16 @@ DOMAIN,kgmobilestat.kugou.com,REJECT
 DOMAIN,kgmobilestatbak.kugou.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
-DOMAIN,rich.kuwo.cn,REJECT
+DOMAIN,rich.kuwo.cn,REJET
+DOMAIN,c.kuwo.cn,REJECT
+DOMAIN-SUFFIX,game.kuwo.cn,REJECT
+DOMAIN,deliver.kuwo.cn,REJECT
+DOMAIN,kwmsg.kuwo.cn,REJECT
+DOMAIN,kuwoyy.com,REJECT
+DOMAIN,updatepage.kuwo.cn,REJECT
+DOMAIN,msclick2.kuwo.cn,REJECT
+DOMAIN,webstat.kuwo.cn,REJECT
+DOMAIN,wa.kuwo.cn,REJECT
 # > Kingsoft
 DOMAIN,ad-stat.ksosoft.com,REJECT
 DOMAIN,img.auction-ads.wpscdn.cn,REJECT
@@ -331,7 +341,8 @@ DOMAIN,ivy.pchouse.com.cn,REJECT
 # > WiFi 万能钥匙
 DOMAIN,a.wkanx.com,REJECT
 DOMAIN,cwx.lianwangtech.com,REJECT
-DOMAIN,c1wx.lianwangtech.com,REJECT
+DOMAIN,c1wx.lianwangtech.com,REJEC
+DOMAIN,c.wechat.jx.cn,REJECT
 # (X)
 # > 喜马拉雅
 DOMAIN,ad.ximalaya.com,REJECT
@@ -353,3 +364,4 @@ DOMAIN,iyes.youku.com,REJECT
 # > ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
+DOMAIN,zhihu.xmcimg.com,REJECT
