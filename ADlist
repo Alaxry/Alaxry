@@ -352,9 +352,8 @@ DOMAIN,iyes.youku.com,REJECT
 # (Z)
 # > ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
-DOMAIN,pvnapp.zol.com.cn,REJECT
-
-
+DOMAIN,pvnapp.zol.com.cn,REJEC
+set 限制解除
 # Update-2020.4.28 Self-use rule, Remove versus shenji duplicates and optimizations
 # This rule does not include shenji
 DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT
