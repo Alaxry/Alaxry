@@ -217,16 +217,7 @@ DOMAIN,kgmobilestat.kugou.com,REJECT
 DOMAIN,kgmobilestatbak.kugou.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
-DOMAIN,rich.kuwo.cn,REJET
-DOMAIN,c.kuwo.cn,REJECT
-DOMAIN-SUFFIX,game.kuwo.cn,REJECT
-DOMAIN,deliver.kuwo.cn,REJECT
-DOMAIN,kwmsg.kuwo.cn,REJECT
-DOMAIN,kuwoyy.com,REJECT
-DOMAIN,updatepage.kuwo.cn,REJECT
-DOMAIN,msclick2.kuwo.cn,REJECT
-DOMAIN,webstat.kuwo.cn,REJECT
-DOMAIN,wa.kuwo.cn,REJECT
+DOMAIN,rich.kuwo.cn,REJECT
 # > Kingsoft
 DOMAIN,ad-stat.ksosoft.com,REJECT
 DOMAIN,img.auction-ads.wpscdn.cn,REJECT
