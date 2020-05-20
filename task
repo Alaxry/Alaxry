@@ -6,17 +6,6 @@
 # App价格版本监控
 # 需要填appid
 cron "0 0 * * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Neurogram-R/AppMonitor.js,tag=App监控
-# > 英雄联盟排名 (By @syzzzf)
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/lol.js,tag=英雄联盟排名
-# > TestFlight公测监控 (By @syzzzf)
-# 需要自己填appkey
-cron "0 0 * * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js,tag=TestFlight公测监控
-
-# > 电视节目预告 (By @Macsuny)
-# var c = “cctv1”  // 可更改电视台，央视可以直接改后缀数字
-# 常用卫视代码北京: btv1 | 湖南: hunan | 浙江: zhejiang|河南: henan| 江苏: jiangsu|广东: guangdong
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tvpreview.js,tag=节目预告
-
 # > 12306余票及列车时刻表查询(By @Macsuny)
 # 可更改出发地、目的地、出发时间及列车车次
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/trainquery.js,tag=12306
@@ -25,17 +14,12 @@ cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Quantum
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,tag=一言+历史上的今天
 # > 每日一句+ 蚂蚁森林收能量
 cron "0 30 7 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,tag=每日一句+蚂蚁森林收能量
-# > 倒数日
-# 需要自己修改节日
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/daysmatter.js,tag=倒数日
-# > 世界时间
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/time.js,tag=世界时间
 
 
 # 签到脚本
 # > NobyDa
 # > 京东
-cron "10 0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,tag=京东
+cron "30 0 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,tag=京东
 
 # > 爱奇艺
 cron "20 0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=爱奇艺
