@@ -12,29 +12,13 @@ cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Quantum
 
 # > 一言
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,tag=一言+历史上的今天
-# > 每日一句+ 蚂蚁森林收能量
-cron "0 30 7 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,tag=每日一句+蚂蚁森林收能量
-
-
 # 签到脚本
 # > NobyDa
 # > 京东
 cron "30 0 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,tag=京东
 
-# > 爱奇艺
-cron "20 0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=爱奇艺
-
 # > 吾爱破解
 cron "30 0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,tag=吾爱破解
-
-# > 哔哩哔哩漫画
-cron "40 0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js,tag=哔哩哔哩漫画
-
-# 百度签到
-# 打开App,点击'我的'
-cron "0 0,1,2 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js,tag=百度贴吧
-
-# @chavyleung
 
 # 电信营业厅
 #打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
@@ -47,171 +31,28 @@ cron "20 1 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "30 1 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,tag=哔哩哔哩
 先杀掉 APP)
 
-# 威锋网
-#打开浏览器访问: https://www.feng.com`(先登录! 把页面切换为电脑版)cron "50 1 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js,tag=威锋网
-
 # 网易云音乐
 #浏览器访问并登录: https://music.163.com/m/login
 cron "10 2 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,tag=网易云音乐
-
-# 网易新闻
-#打开 APP 然后手动签到 1 次
-cron "30 2 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js,tag=网易新闻
-
-# 去哪儿
-#打开 APP 然后手动签到 1 次
-cron "40 2 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js,tag=去哪儿
-
-# 顺丰速运
-#打开 APP, 访问下`我的顺丰` > `去签到` (访问下`去签到`的页面即可, 不用点`签到`)
-#打开 APP或小程序, 访问下`27周年庆`
-cron "0 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,tag= 顺丰速运
 
 # 什么值得买
 #浏览器访问并登录: https://zhiyou.smzdm.com/user/login
 cron "10 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,tag=什么值得买
 
-# V2EX
-#浏览器打开https://www.v2ex.com/mission/daily ，待弹出获取成功即可
-cron "20 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js,tag=V2EX
-
-# 腾讯视频
-#1.手机浏览器访问并登录: https://film.qq.com/
-cron "30 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,tag=腾讯视频
-
-# 喜马拉雅
-#打开 APP, 访问下右下角`账号`
-cron "40 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,tag=喜马拉雅
-
-# 网易严选
-#打开 APP, 访问下`个人`>`每日签到`(右上角)
-cron "50 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/yanxuan/yanxuan.js,tag=网易严选
-
 # QQ音乐
 #打开 APP 然后手动签到 1 次
 cron "10 4 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js,tag=QQ音乐
-
-# CSDN
-# 打开 APP , 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次, 系统提示: `获取Cookie: 成功`
-cron "20 4 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.js,tag=CSDN
-
-# 芒果TV
-#打开 APP 然后手动签到 1 次
-cron "40 4 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js,tag=芒果TV
 
 # 中国联通
 #1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
 #2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
 cron "0 5 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,tag=中国联通
 
-# 中国移动
-#打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
-cron "20 5 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js,tag=中国移动
-
-# 美团外卖
-#打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
-cron "30 5 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js,tag= 美团外卖
-
-# 美团
-#打开 APP , 然后手动签到 1 次, (`首页` > `红包签到`)
-cron "40 5 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,tag=美团
-
-# 时光相册
-#打开 APP 然后手动签到 1 次
-cron "50 5 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.js,tag=时光相册
-
-# 百词斩
-#打开 APP 手动签到一次: 访问下右下角 `我` > `我的铜板` > `加入百词斩小班` > `去查看` > `我的小班进去 领铜板`
-cron "0 6 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bcz/bcz.js,tag=百词斩
-
-# 海底捞
-#打开APP 然后手动签到 1 次
-cron "10 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,tag=海底捞
-
-# 网易考拉
-#打开 APP 手动签到一次: 访问下右下角 `我的考拉` > `领考拉豆` > `签到`
-cron "20 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.js,tag=网易考拉
-
-# WPS
-# 打开 APP 我 > 签到 (右上角, 不用手动签到)
-# 打开 `我的WPS会员` 小程序 (手动签到)
-cron "30 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,tag=WPS
-
-# 苏宁易购
-# 首页 > 签到有礼
-# 首页 > 领取红包
-# 首页  > 天天低价
-cron "0 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,tag=苏宁易购
-
-# Zaker
-# 打开App,然后手动签1次
-cron "10 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zaker/zaker.js,tag=Zaker
-
-# 不背单词
-# 打开App,然后手动签1次
-cron "20 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js,tag=不背单词
-
-# 豆瓣时间
-# 打开 APP 手动签到一次:  `市集` > `豆瓣时间` > `签到`
-cron "30 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dbsj/dbsj.js,tag=豆瓣时间
-
-# 哈啰出行
-# 打开 APP 进入签到页面:  `我的` > `有哈有车`
-cron "40 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js,tag=哈啰出行
-
-
-# 饿了么   (By @syzzzf)
-#打开 APP, 访问下`我的`>`签到领红包`(左上角)
-cron "0 9 8 * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,tag=饿了么
-
-# 携程旅行  (By @barrymchen)
-#打开App 点击”我的“,然后点击”我的积分“,再点击下面的”签到.任务“即可
-cron "20 9 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip.js,tag=携程旅行
-
-# 中国电信套餐 (By @uchvk & @Macsuny)
-#下载安装 天翼账号中心 登录
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/telecomInfinity.js,tag=中国电信套餐
-
-# 腾讯新闻 (By 红鲤鱼与绿鲤鱼与驴 & @Macsuny)
-#1.打开腾讯新闻app，阅读一篇文章，倒计时结束后即可获取Cookie
-#2.现阶段每日共9个阶梯红包，具体阅读篇数视腾讯情况而变动
-#3.脚本运行一次阅读一篇文章，请不要连续运行，防止封号，可设置每几分钟运行一次
-cron "30 9 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,tag=腾讯新闻
-
-# 招行信用卡(公众号) (By @iNotification)
-#招商银行信用卡微信公众号
-cron "50 9 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/cmbchina.js,tag=招行信用卡
-
-# 京东成长分 (By @barrymchen)
-#打开京东金融app，“信用”-》“小白成长分”
-cron "0 10 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jdczf.js,tag= 京东成长分
-
-# 工银e生活 (By @barrymchen)
-# App首页“欢趣签到”,手动签到1次
-cron "10 10 8 * * *" script-path= https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/icbc_sign.js,tag=工银e生活
-
-# 微信小程序-同程艺龙 (By @barrymchen)
-cron "20 10 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tongc_sign.js,tag=微信小程序-同程艺龙
-cron "20 10 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tongc_info.js,tag=微信小程序-同程艺龙info
-
-# 京东到家 (@barrymchen, @GideonSenku & @Macsuny)
-#APP登陆账号后，点击主页’签到‘,即可
-cron "30 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,tag=京东到家
 
 # 微信小程序-来客有礼 (By @Macsuny)
 # 微信搜索’来客有礼‘小程序,登陆京东账号，点击’领京豆->翻牌‘
 cron "40 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,tag=来客有礼
 
-# > 微博 & 微博钱包 (By @Macsuny)
-#1.打开微博App获取Cookie.获取后请注释或禁用Cookie
-#2.打开微博钱包点击签到，获取Cookie，
-#3.钱包已经签到无法获取
-cron "0 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,tag=微博&钱包
-
-# > 新浪新闻 (By @Macsuny)
-1.打开app,点击"我的"=>"签到"，获取第一个Cookie，通知获取信息成功
-2.在未签到情况下，先禁用第一条Cookie链接，然后再次进入签到，通知获取签到Cookie成功
-cron "10 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js,tag=新浪新闻
 
 # 中青看点极速版 (By @Macsuny)
 # 1.进入app，签到一次,即可获取Cookie. 
@@ -220,15 +61,6 @@ cron "10 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Script
 # 4.激励视频获取方法: 关闭vpn，进入任务中心=>抽奖赚点击下面第一个宝箱，出现视频广告页面，然后打开vpn，等待视频播放完毕，点击点我继续领青豆，再重复一次上面操作，获取激励视频请求的body
 cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,tag=中青看点极速版
 
-# 喜马拉雅极速版
-# APP登陆账号后，点击右下角’福利’选项,即可获取Cookie.
-# 每隔一小时开启一次，每天最多5次，金币账户与标准版不同账户
-cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/xmspeed.js,tag=喜马拉雅极速版
-
 # 微信小程序-活动抽奖 (By @makexp & @zZPiglet)
 #打开微信小程序 进入“活动抽奖”，手动签到一次或点击“已签到”
 cron "30 11 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js,tag=微信小程序-活动抽奖
-
-# 微信小程序-喜马拉雅 (By @makexp)
-# 微信小程序 - 喜马拉雅 - 我的： 签到 “ 获取 Cookie
-cron "40 11 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js,tag=微信小程序-喜马拉雅
